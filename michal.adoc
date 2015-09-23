@@ -1,0 +1,3 @@
+== What does a technical writer do? [Michal]
+. Describe the job of a technical writer. Use some markup, for example, highlight a word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
+. Think of a good title for this section.

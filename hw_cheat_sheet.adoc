@@ -1,0 +1,127 @@
+= Git Cheat Sheet
+:numbered:
+
+== How Do I Start a New Git Project?
+
+. Create a directory for the project.
+
+. Open the terminal and change to the project directory.
++
+TIP: To change into a directory, use the `cd` utility. For example, `cd my_project_dir`. To display the directory in which you are currently operating, run the `pwd` utility.
++
+. In the project directory, run the `git init` command.
+
+After this, Git tracks every change made to the directory.
+
+To start writing the project:
+
+. Create a new file in the project directory.
++
+TIP: To do this from the command line using the Atom text editor, run `atom filename.adoc`. Then save and quit the file.
++
+. Tell Git to start tracking the file by running the `git add filename.adoc` command.
+
+== How Do I Commit?
+
+=== Shortcut
+
+. Change the file and save it.
+
+. Run the `git commit -am "Commit message"` command, replacing _Commit message_ with a short description of the changes you made.
+
+. _Optional:_ Run the `git log` command to make sure the commit has been saved in the project history.
+
+The commit is now ready in your local repository. The next step is uploading it to the remote repository.
+
+=== Full Process
+
+. Change the file and save it.
+
+. _Optional:_ Run the `git status` command from the command line. You will see the file printed in red.
+
+. Run the `git add life_of_writer.adoc` command to stage the changes, preparing them to be committed.
+
+. _Optional:_ Run the `git status` command again. You will see the file printed in green, meaning the changes are marked to be included in the next commit.
+
+. Run the `git commit` command to make a commit.
+
+. In the editor that opens:
+
+.. Press `i` to enter Insert mode.
+
+.. Write the commit message on the first line of the editor.
+
+.. Press `Esc` to exit Insert mode.
+
+.. Write `:wq` to save the commit message and quite the editor.
+
+. _Optional:_ Run the `git log` command to make sure the commit has been saved in the project history.
+
+The commit is now ready in your local repository. The next step is uploading it to the remote repository.
+
+== Uploading to a Remote Repository
+
+If you have a commit ready in your local repository, run the `git push` command to upload it to the remote repository. For example:
+
+-------------------------------------------------------------------------------------------
+[user@user git-workshop]$ git push
+
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 651 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+	To https://github.com/rh-writers/git-workshop.git
+	   6b39121..2e9da3e  master -> master
+-------------------------------------------------------------------------------------------
+
+After this, your committed work is added to the remote repository.
+
+== What to Do When Git Rejects a Commit?
+
+Whenever you push a commit, Git checks whether the remote repo matches your local repo. If they do not match, it means that another writer had pushed their changes before you.
+
+In such situations, Git does not allow you to push your commit, and prints the following error message:
+
+-------------------------------------------------------------------------------------------
+To git+https://github.com/rh-writers/git-workshop.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git+https://github.com/rh-writers/git-workshop.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+-------------------------------------------------------------------------------------------
+
+This message means that Git is asking you to pull the other contributor's work: to download it from the shared repo and apply it. After that, you will be allowed to push again. To do this:
+
+. Download the other writer's revision by running the `git pull --rebase` command:
++
+---------------------------------------------------------
+[user@user git-workshop]@ git pull --rebase
+remote: Counting objects: 45, done
+remote: Finding sources: 100% (26/26)
+remote: Total 26 (delta 15), reused 26 (delta 15)
+Unpacking objects: 100% (26/26), done.
+From git+https://github.com/rh-writers/git-workshop.git
+   4802de0..ccfd4d3  master     -> origin/master
+First, rewinding head to replay your work on top of it...
+Applying: fixed some typos
+---------------------------------------------------------
++
+. Upload the commit by running the `git push` command:
++
+-------------------------------------------------------------------------------------------
+[user@user git-workshop]$ git push
+
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 651 bytes | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+	To https://github.com/rh-writers/git-workshop.git
+	   6b39121..2e9da3e  master -> master
+-------------------------------------------------------------------------------------------
++
+After this, your committed work is added to the remote repository.

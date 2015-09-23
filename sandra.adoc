@@ -1,0 +1,2 @@
+=== Text Editors [Sandra]
+. Define what a text editor is and name a few examples. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#_bulleted_lists[bulleted lists].

@@ -1,0 +1,3 @@
+== Communication with SMEs [Max]
+. Explain why it is necessary to communicate with SMEs. Explain what SME stands for. Use some markup, for example, highlight "subject matter expert"  using http://asciidoc.org/asciidoc.css-embedded.html#X51[emphasized text].
+. Think of a good title for this section.

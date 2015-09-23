@@ -1,0 +1,31 @@
+= Life of a Writer
+Red Hat Writers' Workshop Team
+September 2015
+:numbered:
+
+This document summarizes what the Red Hat Writers' Workshop attendees have learned about writing technical documentation.
+
+include::michal.adoc[]
+
+include::kamila.adoc[]
+
+include::max.adoc[]
+
+include::david.adoc[]
+
+include::marketa.adoc[]
+
+include::jakub.adoc[]
+
+include::daniela.adoc[]
+
+include::bela.adoc[]
+
+== Tools for Technical Writing
+
+include::sandra.adoc[]
+
+////////////////////////////////////
+=== Markup Languages [student's name]
+. Define what a markup language and name a few examples. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#_bulleted_lists[bulleted lists].
+////////////////////////////////////

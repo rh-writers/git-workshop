@@ -1,0 +1,3 @@
+=== Understanding the audience [David]
+. Explain why it is necessary to optimize a technical text for the intended audience. Use some markup, for example, highlight a word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
+. Think of a good title for this section.
