@@ -1,3 +1,15 @@
 == What is the documentation process? [Kamila]
-. Describe what we mean by "documentation process". Provide a general introduction. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#_bulleted_lists[bulleted lists].
-. Think of a good title for this section.
+
+.Benefits of the documentation
+
+Documentation process is a monitoring of a process of change and development during the execution of the program or project. The documentation created records and supports the process itself. Documentation process is not about writing a final report for externals, but about an internal ongoing documentation of the change involved. It uses a small chunks of information organized in topics that are tight to the main topic.
+
+It aims at:
+
+* Learning from implementation experience.
+
+* Modifying the strategy and policy of the program or project.
+
+* Using the information to improve the process.
+
+* Helping users to understand the changes in knowledge, attitudes and behaviors that were necessary to achieve results.
