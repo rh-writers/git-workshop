@@ -1,5 +1,5 @@
-=== Why is technical English used in technical documents
+=== Why is technical English used in technical documents?
 
-*Why?* That is almost the same question like 'Why is water in soup?' ;-) It is a must! Soup without water is not a soup. And the same work for technical English and technical document. Let's stop joking. Sorry.
+*Technical English* is being used to avoid misinterpretations than can occur when normal English is used. To be _clear_, _accurate_ and  _brief_ is vital.
 
-*Technical English* is being used to avoid misinterpretations from readers. To be _clear_, _accurate_ and always _well understood_. Understanding technical documentation is necessary bacause instructions and    descriptions are given about how technical software is used and managed. There is `no place for misunderstandings`.
+Understanding technical documentation is necessary because instructions and descriptions are given about how technical software is used and managed. There is `no place for misunderstandings` due to potential expensive problems when one did not understand well.
