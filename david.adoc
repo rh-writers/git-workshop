@@ -1,4 +1,2 @@
 === Understanding the audience [David]
-. Explain why it is necessary to optimize a technical text for the intended audience. Use some markup, for example, highlight a word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
-. Every text has its audience and so do _change logs_, _release notes_ and such. Writers therefore should follow the rules and recommendations for the text they're writing. For technical writers this is to      write a text that does not contain metaphors, idioms and text figures that might not be clear for anyone. *Technical text* therefore *should be simply written, descriptional and very exact*.
-. Think of a good title for this section.
+Every text has its audience and so do _change logs_, _release notes_ and such. Writers therefore should follow the rules and recommendations for the text they're writing. For technical writers this is to write a text that does not contain metaphors, idioms and text figures that might not be clear some people. *Technical text* therefore *should be simply written, descriptional and very exact*.
