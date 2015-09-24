@@ -1,3 +1,5 @@
-=== Why is technical English used in technical documents? [Jakub]
-. Explain the purpose of using technical English in technical docs. Use some markup, for example, highlight a word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
-. Think of a good title for this section.
+=== Why is technical English used in technical documents
+
+*Why?* That is almost the same question like 'Why is water in soup?' ;-) It is a must! Soup without water is not a soup. And the same work for technical English and technical document. Let's stop joking. Sorry.
+
+*Technical English* is being used to avoid misinterpretations from readers. To be _clear_, _accurate_ and always _well understood_. Understanding technical documentation is necessary bacause instructions and    descriptions are given about how technical software is used and managed. There is `no place for misunderstandings`.
