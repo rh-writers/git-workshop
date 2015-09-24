@@ -1,3 +1,4 @@
 == What is technical English? [Markéta]
 . Explain what technical English is. Use some markup, for example, highlight a word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
 . Think of a good title for this section.
+. *Technical English* is English used in documentations where language has to be accurate and can't be misunderstood. Typically, you can't use _metaphors_, you should _avoid long hard-to-read sentences_ and     also _relative clauses_ because they could be easily misread.
