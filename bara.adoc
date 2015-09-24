@@ -1,0 +1,4 @@
+=== Markup Languages [Bara]
+. Define what a markup language is and name a few examples. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#_bulleted_lists[bulleted lists].
+. Add an example of non-technical and technical English. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#X48[example     blocks].
+. Think of a good title for the section.
