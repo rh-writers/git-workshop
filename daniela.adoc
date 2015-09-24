@@ -1,3 +1,2 @@
-=== What can happen when a technical text does not follow the rules of technical English? [Daniela]
-. Describe what problems can the reader face if a technical writer fails to write in technical English. Use some markup, for example, highlight a     word or two as http://asciidoc.org/asciidoc.css-embedded.html#X51[strong text].
-. Think of a good title for this section.
+=== Technical writer's fails [Daniela]
+When a reader has a problem, he needs to solve it immediately. He needs to find a clear and exact solution quickly and not be confused due to *ambiguous and complicated explanation*. If a technical writer does not observe the rules, a reader needs *not understand* and has to spend time by *asking for a hint* another way (if he knows which one). 
