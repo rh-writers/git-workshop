@@ -25,7 +25,4 @@ include::bela.adoc[]
 
 include::sandra.adoc[]
 
-////////////////////////////////////
-=== Markup Languages [student's name]
-. Define what a markup language and name a few examples. Use some markup, for example, http://asciidoc.org/asciidoc.css-embedded.html#_bulleted_lists[bulleted lists].
-////////////////////////////////////
+include::bara.adoc[]
